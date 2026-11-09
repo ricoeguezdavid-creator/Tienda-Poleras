@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+
+.chanez{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+.historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text{
+    flex: 1;
+}
+.imag{
+    flex: 1;
+}
+.imag img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mision{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagen, .texto{
+    flex: 1;
+}
+
+.imagen img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.Info{
+    text-align: center;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}

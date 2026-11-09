@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+}
+/* Encabezado */
+header {
+    background-color: #dfee0d;
+    color: #09010a;
+    padding: 20px;
+    text-align: center;
+    padding: 30px 20px;
+}
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.producto {
+    background-color: #fff;
+    width: 240px;
+    max-width: 100%;
+    padding: 20px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(152, 155, 12, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+}
+.precio {
+    color: #dfee0d;
+    font-size: 22px;
+    font-weight: bold;
+}
+.descuento {
+    background-color: red;
+    color: floralwhite;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #dfee0d;
+    color: #09010a;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #c1d90b;
+}
+footer {
+    background-color: #dfee0d;
+    color: #09010a;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+a {
+    color: #09010a;
+}
